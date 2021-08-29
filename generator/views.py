@@ -29,4 +29,4 @@ def password(request):
     return render(request, 'generator/password.html', {'password': the_password})
 
 def about(request):
-    return render(request, 'generator/abuot.html')
+    return render(request, 'generator/about.html')
